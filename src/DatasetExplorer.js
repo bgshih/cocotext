@@ -46,7 +46,7 @@ export class DatasetExplorer extends Component {
   }
 
   fetchImageIdList() {
-    const imageIdListUrl = "https://raw.githubusercontent.com/bgshih/cocotext/v1.0/data/image_list.min.json";
+    const imageIdListUrl = "https://cdn.rawgit.com/bgshih/cocotext/v1.0/data/image_list.min.json";
     fetch(imageIdListUrl)
       .then((response) => response.json())
       .then((imageListJson) => {
@@ -71,7 +71,7 @@ export class DatasetExplorer extends Component {
       textInstances: null,
     });
     const { imageId } = this.state;
-    const annotationUrl = "https://raw.githubusercontent.com/bgshih/cocotext/v1.0/data/" + imageId.toString() + ".json";
+    const annotationUrl = "https://cdn.rawgit.com/bgshih/cocotext/v1.0/data/" + imageId.toString() + ".json";
     fetch(annotationUrl)
       .then((response) => response.json())
       .then((annotJson) => {
