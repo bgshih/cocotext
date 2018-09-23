@@ -8,6 +8,10 @@ import DatasetExplorer from './DatasetExplorer';
 
 import './App.css';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-124758535-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 const styles = theme => ({
   container: {

@@ -11,6 +11,7 @@
     "react": "^16.3.2",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.3.2",
+    "react-ga": "^2.5.3",
     "react-measure": "^2.0.2",
     "react-scripts": "1.1.4"
   },
