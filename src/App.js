@@ -153,6 +153,7 @@ class App extends Component {
         <Grid fluid={true}>
           <Row className="FooterRow">
             <Grid fluid={false}>
+              <p className="Footer"><a href="mailto@shibaoguang@gmail.com">Contact Us</a></p>
               <p className="Footer">Copyright Ⓒ 2018 • <a href="https://vision.cornell.edu/se3/">SE(3) Computer Vision Group at Cornell Tech</a></p>
             </Grid>
           </Row>
