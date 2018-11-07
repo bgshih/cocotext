@@ -128,7 +128,7 @@ class App extends Component {
           <Row>
             <Col xs={12}>
               <h2 id="h2-download">Download</h2>
-              <p>Train+Validation annotations: <a href="https://s3.amazonaws.com/cocotext-dl/cocotext.v2.zip">cocotext.v2.zip [12 MB]</a></p>
+              <p>Train+Validation annotations: <a href="https://github.com/bgshih/cocotext/releases/download/dl/cocotext.v2.zip">cocotext.v2.zip [12 MB]</a></p>
               <p>By downloading the annotations, you agree to our <a href="#h2-tou">Terms of Use</a>.</p>
               <p>The images are the 2014 train images of MSCOCO. They can be downloaded separately at the <a href="http://cocodataset.org/#download">MSCOCO website</a>.</p>
             </Col>
